@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nugget name="UML_CLASS_DIAGRAM_XMI_EXPORT">
+ <PROG NAME="ZZ_UML_CLASS_DIAG_XMI_EXPORT" VARCL="X" SUBC="1" APPL="S" RSTAT="P" RMAND="000" RLOAD="E" FIXPT="X" UCCHECK="X">
+  <textPool>
+   <language SPRAS="D">
+    <textElement ID="T" ENTRY="Generator für UML Klassen Diagramme" LENGTH="35 "/>
+    <textElement ID="R" ENTRY="Generierung von UML Klassendiagrammen" LENGTH="37 "/>
+    <textElement ID="I" KEY="001" ENTRY="Bitte über Entwicklungsklasse/Paket einschränken!" LENGTH="76 "/>
+    <textElement ID="I" KEY="002" ENTRY="Maximale Anzahl zu scannender Typen wurde überschritten." LENGTH="72 "/>
+    <textElement ID="I" KEY="003" ENTRY="Maximale Anzahl Fehler wurde überschritten." LENGTH="76 "/>
+    <textElement ID="I" KEY="004" ENTRY="Schwerwiegender Fehler in Typ" LENGTH="38 "/>
+    <textElement ID="I" KEY="005" ENTRY="Das Klassendiagramm ist unvollständig!" LENGTH="50 "/>
+    <textElement ID="I" KEY="006" ENTRY="Ergebnisse als XMI Datei speichern" LENGTH="50 "/>
+    <textElement ID="I" KEY="007" ENTRY="Primäre Selektionsmenge" LENGTH="30 "/>
+    <textElement ID="I" KEY="008" ENTRY="Anweisungen für den UML Scanner" LENGTH="40 "/>
+    <textElement ID="I" KEY="009" ENTRY="UML Darstellungsoptionen" LENGTH="32 "/>
+    <textElement ID="I" KEY="010" ENTRY="Fehlerhafte Eingabe" LENGTH="26 "/>
+    <textElement ID="I" KEY="011" ENTRY="Anzahl der analysierten Objekte:" LENGTH="42 "/>
+    <textElement ID="I" KEY="012" ENTRY="Bitte passen sie die Selektionsparameter an." LENGTH="58 "/>
+    <textElement ID="I" KEY="013" ENTRY="Bitte wählen sie ein Plug-In" LENGTH="50 "/>
+    <textElement ID="I" KEY="014" ENTRY="Plug-In ausführen" LENGTH="40 "/>
+    <textElement ID="I" KEY="E01" ENTRY="Das JNet OCX fehlt (falsche GUI Version)." LENGTH="88 "/>
+    <textElement ID="I" KEY="E02" ENTRY="Der Baum für die Navigation konnte nicht erstellt werden." LENGTH="88 "/>
+    <textElement ID="I" KEY="E03" ENTRY="Die Eventhandler für den Baum konnten nicht registriert werden" LENGTH="88 "/>
+    <textElement ID="I" KEY="E04" ENTRY="Bitte installieren Sie das JNet ActiveX Control (http://graphics1.wdf.sap.corp:1080/jnet/Download.html#deployActiveX4SAPGUI)" LENGTH="132 "/>
+    <textElement ID="S" KEY="P_COLOR" ENTRY="        Farbschema" LENGTH="18 "/>
+    <textElement ID="S" KEY="P_MAXERR" ENTRY="        Maximale Anzahl Fehler" LENGTH="38 "/>
+    <textElement ID="S" KEY="P_MAXNEW" ENTRY="        Mengenbegrenzung" LENGTH="36 "/>
+    <textElement ID="I" KEY="SC1" ENTRY="Selektion der auszuwertenden Entwicklungsobjekte" LENGTH="62 "/>
+    <textElement ID="I" KEY="SC2" ENTRY="Optionen zur Darstellung des UML Klassen Diagramms" LENGTH="66 "/>
+    <textElement ID="I" KEY="SC7" ENTRY="Arbeitsanweisung für den UML Scanner" LENGTH="48 "/>
+    <textElement ID="S" KEY="SO_DEVC" ENTRY="D       ." LENGTH="13 "/>
+    <textElement ID="S" KEY="SO_HIDE" ENTRY="        Versteckte Typen" LENGTH="24 "/>
+    <textElement ID="S" KEY="SO_MAXI" ENTRY="        Vollständige Darstellung für" LENGTH="36 "/>
+    <textElement ID="S" KEY="SO_MINI" ENTRY="        Minnimale Darstellung für" LENGTH="33 "/>
+    <textElement ID="S" KEY="SO_ROOT" ENTRY="D       ." LENGTH="18 "/>
+    <textElement ID="S" KEY="X_AGGR" ENTRY="        Aggregationen (&lt;&gt;--)" LENGTH="31 "/>
+    <textElement ID="S" KEY="X_ASOS" ENTRY="        Assoziationen (--&gt;)" LENGTH="31 "/>
+    <textElement ID="S" KEY="X_ATTR" ENTRY="        Attribute auflisten" LENGTH="27 "/>
+    <textElement ID="S" KEY="X_CONS" ENTRY="        Konstanten anzeigen" LENGTH="27 "/>
+    <textElement ID="S" KEY="X_CONT" ENTRY="        Poolzuordnung zeigen" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_EVEN" ENTRY="        Ereignisse (&lt;&lt;event&gt;&gt;)" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_EXCEP" ENTRY="        Ausnahmen (&lt;&lt;throws&gt;&gt;)" LENGTH="36 "/>
+    <textElement ID="S" KEY="X_FRND" ENTRY="        Freundschaft (&lt;&lt;friend&gt;&gt;)" LENGTH="33 "/>
+    <textElement ID="S" KEY="X_FUGR" ENTRY="        Funktionsgruppen analysieren" LENGTH="36 "/>
+    <textElement ID="S" KEY="X_LOCL" ENTRY="        Lokale Objekte analysieren" LENGTH="34 "/>
+    <textElement ID="S" KEY="X_LOLLI" ENTRY="        Lollipop-Darstellung" LENGTH="28 "/>
+    <textElement ID="S" KEY="X_METH" ENTRY="        Methoden auflisten" LENGTH="26 "/>
+    <textElement ID="S" KEY="X_PACK" ENTRY="        Paketzuordnung zeigen" LENGTH="29 "/>
+    <textElement ID="S" KEY="X_PACKS" ENTRY="        Package Member (~)" LENGTH="26 "/>
+    <textElement ID="S" KEY="X_PRIV" ENTRY="        Private Member  (-)" LENGTH="31 "/>
+    <textElement ID="S" KEY="X_PROG" ENTRY="        Programme  analysieren" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_PROT" ENTRY="        Protected Member (#)" LENGTH="33 "/>
+    <textElement ID="S" KEY="X_STRUCT" ENTRY="        Strukturen  (&lt;&lt;data Type&gt;&gt;)" LENGTH="35 "/>
+    <textElement ID="S" KEY="X_USES" ENTRY="        Abhängigkeit (&lt;&lt;uses&gt;&gt;)" LENGTH="31 "/>
+   </language>
+   <language SPRAS="E">
+    <textElement ID="I" KEY="007" ENTRY="Primary Selection Set" LENGTH="30 "/>
+    <textElement ID="I" KEY="008" ENTRY="Statements UML Scanner" LENGTH="40 "/>
+    <textElement ID="I" KEY="009" ENTRY="UML Representation Options" LENGTH="32 "/>
+    <textElement ID="I" KEY="SC1" ENTRY="Selection of Development Objects to Be Evaluated" LENGTH="62 "/>
+    <textElement ID="I" KEY="SC2" ENTRY="Options for Display of UML Class Diagrams" LENGTH="66 "/>
+    <textElement ID="I" KEY="SC7" ENTRY="Work Instructions for UML Scanner" LENGTH="48 "/>
+    <textElement ID="R" ENTRY="UML Class Diagram - XMI Export" LENGTH="30 "/>
+    <textElement ID="S" KEY="SO_DEVC" ENTRY="D       ." LENGTH="15 "/>
+    <textElement ID="S" KEY="SO_ROOT" ENTRY="D       ." LENGTH="19 "/>
+    <textElement ID="S" KEY="X_AGGR" ENTRY="        Aggregations (&lt;&gt;--)" LENGTH="31 "/>
+    <textElement ID="S" KEY="X_ASOS" ENTRY="        Associations (--&gt;)" LENGTH="31 "/>
+    <textElement ID="S" KEY="X_ATTR" ENTRY="        List Attributes" LENGTH="27 "/>
+    <textElement ID="S" KEY="X_CONS" ENTRY="        Display Constants" LENGTH="27 "/>
+    <textElement ID="S" KEY="X_EXCEP" ENTRY="        Exceptions (&lt;&lt;throws&gt;&gt;)" LENGTH="36 "/>
+    <textElement ID="S" KEY="X_FUGR" ENTRY="        Analyze Function Groups" LENGTH="36 "/>
+    <textElement ID="S" KEY="X_METH" ENTRY="        List Methods" LENGTH="26 "/>
+    <textElement ID="S" KEY="X_PACKS" ENTRY="        Package Member (~)" LENGTH="26 "/>
+    <textElement ID="S" KEY="X_PRIV" ENTRY="        Private Member  (-)" LENGTH="31 "/>
+    <textElement ID="S" KEY="X_PROG" ENTRY="        Analyze Program" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_PROT" ENTRY="        Protected Member (#)" LENGTH="33 "/>
+    <textElement ID="S" KEY="X_STRUCT" ENTRY="        Structures  (&lt;&lt;data Type&gt;&gt;)" LENGTH="35 "/>
+    <textElement ID="S" KEY="X_USES" ENTRY="        Dependency (&lt;&lt;uses&gt;&gt;)" LENGTH="31 "/>
+    <textElement ID="T" ENTRY="Generator for UML Class Diagrams" LENGTH="32 "/>
+   </language>
+   <language SPRAS="늑">
+    <textElement ID="I" KEY="001" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="76 "/>
+    <textElement ID="I" KEY="002" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="72 "/>
+    <textElement ID="I" KEY="003" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="76 "/>
+    <textElement ID="I" KEY="004" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="38 "/>
+    <textElement ID="I" KEY="005" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="50 "/>
+    <textElement ID="I" KEY="006" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="50 "/>
+    <textElement ID="I" KEY="007" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="I" KEY="008" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="40 "/>
+    <textElement ID="I" KEY="009" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="32 "/>
+    <textElement ID="I" KEY="010" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="26 "/>
+    <textElement ID="I" KEY="011" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="42 "/>
+    <textElement ID="I" KEY="012" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="58 "/>
+    <textElement ID="I" KEY="013" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="50 "/>
+    <textElement ID="I" KEY="014" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="40 "/>
+    <textElement ID="I" KEY="E01" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="88 "/>
+    <textElement ID="I" KEY="E02" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="88 "/>
+    <textElement ID="I" KEY="E03" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="88 "/>
+    <textElement ID="I" KEY="E04" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="132 "/>
+    <textElement ID="I" KEY="SC1" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="62 "/>
+    <textElement ID="I" KEY="SC2" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="66 "/>
+    <textElement ID="I" KEY="SC7" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="48 "/>
+    <textElement ID="R" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="70 "/>
+    <textElement ID="S" KEY="P_COLOR" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="P_MAXERR" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="38 "/>
+    <textElement ID="S" KEY="P_MAXNEW" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="36 "/>
+    <textElement ID="S" KEY="SO_HIDE" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="SO_MAXI" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="36 "/>
+    <textElement ID="S" KEY="SO_MINI" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="33 "/>
+    <textElement ID="S" KEY="X_AGGR" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="31 "/>
+    <textElement ID="S" KEY="X_ASOS" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="31 "/>
+    <textElement ID="S" KEY="X_ATTR" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_CONS" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_CONT" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_EVEN" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_EXCEP" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="36 "/>
+    <textElement ID="S" KEY="X_FRND" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="33 "/>
+    <textElement ID="S" KEY="X_FUGR" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="36 "/>
+    <textElement ID="S" KEY="X_LOCL" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="34 "/>
+    <textElement ID="S" KEY="X_LOLLI" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_METH" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_PACK" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_PACKS" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_PRIV" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="31 "/>
+    <textElement ID="S" KEY="X_PROG" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="30 "/>
+    <textElement ID="S" KEY="X_PROT" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="33 "/>
+    <textElement ID="S" KEY="X_STRUCT" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="35 "/>
+    <textElement ID="S" KEY="X_USES" ENTRY="        RPT4 UML_CLASS_DIAGRAM" LENGTH="31 "/>
+    <textElement ID="T" ENTRY="RPT4 UML_CLASS_DIAGRAM" LENGTH="35 "/>
+    <textElement ID="S" KEY="SO_DEVC" ENTRY="D       ." LENGTH="13 "/>
+    <textElement ID="S" KEY="SO_ROOT" ENTRY="D       ." LENGTH="18 "/>
+   </language>
+   <language SPRAS="닱">
+    <textElement ID="I" KEY="001" ENTRY="[Ɓįţţē∙üƃēŗ∙Ĕŋţŵįċķĺűŋğşķĺąşşē/Ƥąķēţ∙ēįŋşċĥŗäŋķēŋ!∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="76 "/>
+    <textElement ID="I" KEY="002" ENTRY="[Μąχįɱąĺē∙Āŋžąĥĺ∙žű∙şċąŋŋēŋƌēŗ∙Ţŷρēŋ∙ŵűŗƌē∙üƃēŗşċĥŗįţţēŋ.∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="72 "/>
+    <textElement ID="I" KEY="003" ENTRY="[Μąχįɱąĺē∙Āŋžąĥĺ∙Ƒēĥĺēŗ∙ŵűŗƌē∙üƃēŗşċĥŗįţţēŋ.∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="76 "/>
+    <textElement ID="I" KEY="004" ENTRY="[Ŝċĥŵēŗŵįēğēŋƌēŗ∙Ƒēĥĺēŗ∙įŋ∙Ţŷρ∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="I" KEY="005" ENTRY="[Ďąş∙Ķĺąşşēŋƌįąğŗąɱɱ∙įşţ∙űŋʋŏĺĺşţäŋƌįğ!∙∙∙∙∙∙∙∙∙∙]" LENGTH="50 "/>
+    <textElement ID="I" KEY="006" ENTRY="[Ĕŗğēƃŋįşşē∙ąĺş∙ΧΜĬ∙Ďąţēį∙şρēįċĥēŗŋ∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="50 "/>
+    <textElement ID="I" KEY="007" ENTRY="[Ƥŗįɱäŗē∙Ŝēĺēķţįŏŋşɱēŋğē∙∙∙∙∙]" LENGTH="30 "/>
+    <textElement ID="I" KEY="008" ENTRY="[Āŋŵēįşűŋğēŋ∙ƒüŗ∙ƌēŋ∙ŮΜĻ∙Ŝċąŋŋēŗ∙∙∙∙∙∙∙]" LENGTH="40 "/>
+    <textElement ID="I" KEY="009" ENTRY="[ŮΜĻ∙Ďąŗşţēĺĺűŋğşŏρţįŏŋēŋ∙∙∙∙∙∙]" LENGTH="32 "/>
+    <textElement ID="I" KEY="010" ENTRY="[Ƒēĥĺēŗĥąƒţē∙Ĕįŋğąƃē∙∙∙∙∙]" LENGTH="26 "/>
+    <textElement ID="I" KEY="011" ENTRY="[Āŋžąĥĺ∙ƌēŗ∙ąŋąĺŷşįēŗţēŋ∙Ŏƃĵēķţē:∙∙∙∙∙∙∙∙]" LENGTH="42 "/>
+    <textElement ID="I" KEY="012" ENTRY="[Ɓįţţē∙ρąşşēŋ∙şįē∙ƌįē∙Ŝēĺēķţįŏŋşρąŗąɱēţēŗ∙ąŋ.∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="58 "/>
+    <textElement ID="I" KEY="013" ENTRY="[Ɓįţţē∙ŵäĥĺēŋ∙şįē∙ēįŋ∙Ƥĺűğ-Ĭŋ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="50 "/>
+    <textElement ID="I" KEY="014" ENTRY="[Ƥĺűğ-Ĭŋ∙ąűşƒüĥŗēŋ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="40 "/>
+    <textElement ID="I" KEY="E01" ENTRY="[Ďąş∙ĴŃēţ∙ŎĈΧ∙ƒēĥĺţ∙(ƒąĺşċĥē∙ĢŮĬ∙Ʋēŗşįŏŋ).∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="88 "/>
+    <textElement ID="I" KEY="E02" ENTRY="[Ďēŗ∙Ɓąűɱ∙ƒüŗ∙ƌįē∙Ńąʋįğąţįŏŋ∙ķŏŋŋţē∙ŋįċĥţ∙ēŗşţēĺĺţ∙ŵēŗƌēŋ.∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="88 "/>
+    <textElement ID="I" KEY="E03" ENTRY="[Ďįē∙Ĕʋēŋţĥąŋƌĺēŗ∙ƒüŗ∙ƌēŋ∙Ɓąűɱ∙ķŏŋŋţēŋ∙ŋįċĥţ∙ŗēğįşţŗįēŗţ∙ŵēŗƌēŋ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="88 "/>
+    <textElement ID="I" KEY="E04" ENTRY="[Ɓįţţē∙įŋşţąĺĺįēŗēŋ∙Ŝįē∙ƌąş∙ĴŃēţ∙ĀċţįʋēΧ∙Ĉŏŋţŗŏĺ∙(ĥţţρ://ğŗąρĥįċş1.ŵƌƒ.şąρ.ċŏŗρ:1080/ĵŋēţ/Ďŏŵŋĺŏąƌ.ĥţɱĺ#ƌēρĺŏŷĀċţįʋēΧ4ŜĀƤĢŮĬ)∙∙∙∙∙∙]" LENGTH="132 "/>
+    <textElement ID="I" KEY="SC1" ENTRY="[Ŝēĺēķţįŏŋ∙ƌēŗ∙ąűşžűŵēŗţēŋƌēŋ∙Ĕŋţŵįċķĺűŋğşŏƃĵēķţē∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="62 "/>
+    <textElement ID="I" KEY="SC2" ENTRY="[Ŏρţįŏŋēŋ∙žűŗ∙Ďąŗşţēĺĺűŋğ∙ƌēş∙ŮΜĻ∙Ķĺąşşēŋ∙Ďįąğŗąɱɱş∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="66 "/>
+    <textElement ID="I" KEY="SC7" ENTRY="[Āŗƃēįţşąŋŵēįşűŋğ∙ƒüŗ∙ƌēŋ∙ŮΜĻ∙Ŝċąŋŋēŗ∙∙∙∙∙∙∙∙∙∙]" LENGTH="48 "/>
+    <textElement ID="R" ENTRY="[Ģēŋēŗįēŗűŋğ∙ʋŏŋ∙ŮΜĻ∙Ķĺąşşēŋƌįąğŗąɱɱēŋ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="70 "/>
+    <textElement ID="S" KEY="P_COLOR" ENTRY="        [Ƒąŗƃşċĥēɱą∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="P_MAXERR" ENTRY="        [Μąχįɱąĺē∙Āŋžąĥĺ∙Ƒēĥĺēŗ∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="P_MAXNEW" ENTRY="        [Μēŋğēŋƃēğŗēŋžűŋğ∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="SO_HIDE" ENTRY="        [Ʋēŗşţēċķţē∙Ţŷρēŋ∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="SO_MAXI" ENTRY="        [Ʋŏĺĺşţäŋƌįğē∙Ďąŗşţēĺĺűŋğ∙ƒüŗ]" LENGTH="38 "/>
+    <textElement ID="S" KEY="SO_MINI" ENTRY="        [Μįŋŋįɱąĺē∙Ďąŗşţēĺĺűŋğ∙ƒüŗ∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_AGGR" ENTRY="        [Āğğŗēğąţįŏŋēŋ∙(&lt;&gt;--)∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_ASOS" ENTRY="        [Āşşŏžįąţįŏŋēŋ∙(--&gt;)∙∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_ATTR" ENTRY="        [Āţţŗįƃűţē∙ąűƒĺįşţēŋ∙∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_CONS" ENTRY="        [Ķŏŋşţąŋţēŋ∙ąŋžēįğēŋ∙∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_CONT" ENTRY="        [Ƥŏŏĺžűŏŗƌŋűŋğ∙žēįğēŋ∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_EVEN" ENTRY="        [Ĕŗēįğŋįşşē∙(&lt;&lt;ēʋēŋţ&gt;&gt;)∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_EXCEP" ENTRY="        [Āűşŋąĥɱēŋ∙(&lt;&lt;ţĥŗŏŵş&gt;&gt;)∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_FRND" ENTRY="        [Ƒŗēűŋƌşċĥąƒţ∙(&lt;&lt;ƒŗįēŋƌ&gt;&gt;)∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_FUGR" ENTRY="        [Ƒűŋķţįŏŋşğŗűρρēŋ∙ąŋąĺŷşįēŗēŋ]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_LOCL" ENTRY="        [Ļŏķąĺē∙Ŏƃĵēķţē∙ąŋąĺŷşįēŗēŋ∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_LOLLI" ENTRY="        [Ļŏĺĺįρŏρ-Ďąŗşţēĺĺűŋğ∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_METH" ENTRY="        [Μēţĥŏƌēŋ∙ąűƒĺįşţēŋ∙∙∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_PACK" ENTRY="        [Ƥąķēţžűŏŗƌŋűŋğ∙žēįğēŋ∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_PACKS" ENTRY="        [Ƥąċķąğē∙Μēɱƃēŗ∙(~)∙∙∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_PRIV" ENTRY="        [Ƥŗįʋąţē∙Μēɱƃēŗ∙∙(-)∙∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_PROG" ENTRY="        [Ƥŗŏğŗąɱɱē∙∙ąŋąĺŷşįēŗēŋ∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_PROT" ENTRY="        [Ƥŗŏţēċţēƌ∙Μēɱƃēŗ∙(#)∙∙∙∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_STRUCT" ENTRY="        [Ŝţŗűķţűŗēŋ∙∙(&lt;&lt;ƌąţą∙Ţŷρē&gt;&gt;)∙]" LENGTH="38 "/>
+    <textElement ID="S" KEY="X_USES" ENTRY="        [Āƃĥäŋğįğķēįţ∙(&lt;&lt;űşēş&gt;&gt;)∙∙∙∙∙]" LENGTH="38 "/>
+    <textElement ID="T" ENTRY="[Ģēŋēŗąţŏŗ∙ƒüŗ∙ŮΜĻ∙Ķĺąşşēŋ∙Ďįąğŗąɱɱē∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙]" LENGTH="70 "/>
+    <textElement ID="S" KEY="SO_DEVC" ENTRY="D       ." LENGTH="13 "/>
+    <textElement ID="S" KEY="SO_ROOT" ENTRY="D       ." LENGTH="18 "/>
+   </language>
+  </textPool>
+  <source>&quot;! Adjusted version of SAP standard program UML_CLASS_DIAGRAM.
+&quot;! This version just exports an XMI file which than can be imported into an UML tool.
+&quot;! There is no need to have JNET installed.
+REPORT zz_uml_class_diag_xmi_export.
+
+TABLES tadir.
+
+&quot; ----------------------------------------------------------------------------------------------------------------------------------- *
+&quot; selection screen definition
+SELECTION-SCREEN: BEGIN OF TABBED BLOCK mytab FOR 18 LINES,
+                    TAB (40) button1 USER-COMMAND push1 DEFAULT SCREEN 510,
+                    TAB (40) button2 USER-COMMAND push2 DEFAULT SCREEN 520,
+                    TAB (40) button3 USER-COMMAND push3 DEFAULT SCREEN 530,
+                  END OF BLOCK mytab.
+
+&quot; primary selection criteria
+SELECTION-SCREEN BEGIN OF SCREEN 510 AS SUBSCREEN.
+SELECTION-SCREEN BEGIN OF BLOCK s1 WITH FRAME TITLE text-sc1.
+SELECT-OPTIONS: so_root  FOR tadir-obj_name,  &quot; root objects
+                so_devc  FOR tadir-devclass.  &quot; root objects dev-class
+SELECTION-SCREEN END OF BLOCK s1.
+SELECTION-SCREEN END OF SCREEN 510.
+
+&quot; UML scanner parameters
+SELECTION-SCREEN BEGIN OF SCREEN 520 AS SUBSCREEN.
+SELECTION-SCREEN BEGIN OF BLOCK b0 WITH FRAME TITLE text-sc7.
+PARAMETERS: x_prog   TYPE c AS CHECKBOX DEFAULT &apos; &apos;,
+            x_fugr   TYPE c AS CHECKBOX DEFAULT &apos; &apos;,
+            x_struct TYPE c AS CHECKBOX DEFAULT &apos; &apos;.
+SELECTION-SCREEN END OF BLOCK b0.
+SELECTION-SCREEN END OF SCREEN 520.
+
+&quot; diagram option parameters
+SELECTION-SCREEN BEGIN OF SCREEN 530 AS SUBSCREEN.
+SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE text-sc2.
+PARAMETERS: x_priv  TYPE c AS CHECKBOX DEFAULT &apos;X&apos;,
+            x_prot  TYPE c AS CHECKBOX DEFAULT &apos;X&apos;,
+            x_packs TYPE c AS CHECKBOX DEFAULT &apos;X&apos;,
+            x_attr  TYPE c AS CHECKBOX DEFAULT &apos;X&apos;,
+            x_cons  TYPE c AS CHECKBOX DEFAULT &apos;X&apos;,
+            x_meth  TYPE c AS CHECKBOX DEFAULT &apos;X&apos;,
+            x_uses  TYPE c AS CHECKBOX DEFAULT &apos; &apos;,
+            x_excep TYPE c AS CHECKBOX DEFAULT &apos; &apos;,
+            x_asos  TYPE c AS CHECKBOX DEFAULT &apos; &apos;,
+            x_aggr  TYPE c AS CHECKBOX DEFAULT &apos; &apos;.
+SELECTION-SCREEN END OF BLOCK b1.
+SELECTION-SCREEN END OF SCREEN 530.
+
+&quot; ----------------------------------------------------------------------------------------------------------------------------------- *
+&quot; classes/interfaces
+
+&quot;! Parameter Interface
+INTERFACE lif_parameter.
+  TYPES:
+    &quot;! select option line type
+    BEGIN OF mst_so,
+      sign   TYPE char1,
+      option TYPE char2,
+      low    TYPE text30,
+      high   TYPE text30,
+    END OF mst_so,
+
+    &quot;! select option table type
+    mtt_so TYPE TABLE OF mst_so WITH EMPTY KEY.
+
+  &quot;! get single parameter
+  &quot;! @parameter iv_sel_name | parameter name
+  &quot;! @parameter rv_value | value
+  METHODS get_parameter
+    IMPORTING iv_parameter_name TYPE selname
+    RETURNING VALUE(rv_value)   TYPE string.
+
+  &quot;! get select option table parameter
+  &quot;! @parameter rt_so_value | selection option values
+  METHODS get_parameter_so_tab
+    IMPORTING iv_parameter_name  TYPE selname
+    RETURNING VALUE(rt_so_value) TYPE lif_parameter=&gt;mtt_so.
+ENDINTERFACE.
+
+&quot;! Parameter Class
+CLASS lcl_parameter DEFINITION.
+  PUBLIC SECTION.
+    INTERFACES lif_parameter.
+
+    &quot;! constructor
+    &quot;! @parameter iv_progname | program name
+    METHODS constructor
+      IMPORTING iv_progname TYPE progname.
+
+  PRIVATE SECTION.
+    &quot;! program name
+    DATA mv_progname TYPE progname.
+    &quot;! selection screen parameters
+    DATA mt_parameters TYPE SORTED TABLE OF rsparamsl_255 WITH NON-UNIQUE KEY selname.
+
+    &quot;! fill parameter table
+    METHODS fill_parameter_table.
+
+ENDCLASS.
+
+CLASS lcl_parameter IMPLEMENTATION.
+
+  METHOD constructor.
+    mv_progname = iv_progname.
+    fill_parameter_table( ).
+  ENDMETHOD.
+
+  METHOD fill_parameter_table.
+    DATA lt_parameters TYPE TABLE OF rsparams ##needed.
+    DATA lt_parameters_255 TYPE TABLE OF rsparamsl_255.
+
+    CALL FUNCTION &apos;RS_REFRESH_FROM_SELECTOPTIONS&apos;
+      EXPORTING
+        curr_report         = mv_progname
+      TABLES
+        selection_table     = lt_parameters
+        selection_table_255 = lt_parameters_255
+      EXCEPTIONS
+        not_found           = 1
+        no_report           = 2
+        OTHERS              = 3.
+
+    IF sy-subrc &lt;&gt; 0.
+      CLEAR mt_parameters.
+    ELSE.
+      INSERT LINES OF lt_parameters_255 INTO TABLE mt_parameters.
+    ENDIF.
+  ENDMETHOD.
+
+  METHOD lif_parameter~get_parameter.
+    TRY.
+        rv_value = mt_parameters[ selname = iv_parameter_name ]-low.
+      CATCH cx_sy_itab_line_not_found.
+        CLEAR rv_value.
+    ENDTRY.
+  ENDMETHOD.
+
+  METHOD lif_parameter~get_parameter_so_tab.
+    DATA(lt_parameter_flt) = FILTER #( mt_parameters WHERE selname = iv_parameter_name ).
+    DELETE lt_parameter_flt WHERE low IS INITIAL AND high IS INITIAL.
+
+    rt_so_value = VALUE #( FOR ls_wa IN lt_parameter_flt ( sign = ls_wa-sign option = ls_wa-option low = ls_wa-low high = ls_wa-high ) ).
+  ENDMETHOD.
+
+ENDCLASS.
+
+&quot;! exporter interface
+INTERFACE lif_exporter.
+  &quot;! export data
+  &quot;! @parameter io_uml_class_scanner | UML class scanner instance
+  METHODS export IMPORTING io_uml_class_scanner TYPE REF TO cl_uml_class_scanner.
+ENDINTERFACE.
+
+&quot;! XMI exporter class
+CLASS lcl_xmi_exporter DEFINITION.
+  PUBLIC SECTION.
+    INTERFACES lif_exporter.
+    &quot;! constructor
+    &quot;! @parameter io_parameter | parameters
+    METHODS constructor IMPORTING io_parameter TYPE REF TO lif_parameter.
+
+  PRIVATE SECTION.
+    &quot;! parameters
+    DATA mo_parameter TYPE REF TO lif_parameter.
+ENDCLASS.
+
+CLASS lcl_xmi_exporter IMPLEMENTATION.
+
+  METHOD constructor.
+    mo_parameter = io_parameter.
+  ENDMETHOD.
+
+  METHOD lif_exporter~export.
+    DATA lv_kind TYPE c.
+    DATA lv_file TYPE string ##needed.
+    DATA lv_path TYPE string ##needed.
+    DATA lv_fullpath TYPE string.
+    DATA lv_user_action TYPE i.
+
+    DATA lr_ref_data TYPE REF TO data.
+    DATA lr_ref_xstr TYPE REF TO xstring.
+
+    FIELD-SYMBOLS &lt;lv_data&gt; TYPE xstring.
+
+    DATA(lo_xmi) = NEW cl_uml_class_decor_xmi( decorator = io_uml_class_scanner ).
+
+    lo_xmi-&gt;set_decorator_configuration( attributes = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_ATTR&apos;) )
+                                         methods = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_METH&apos;) )
+                                         constants = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_CONS&apos;) )
+                                         private_member = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_PRIV&apos;) )
+                                         protected_member = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_PROT&apos;) )
+                                         packaged_member = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_PACKS&apos;) ) ).
+
+    lo_xmi-&gt;set_xmi_configuration( aggregations    = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_AGGR&apos;) )
+                                   associations    = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_ASOS&apos;) )
+                                   uses            = abap_false    &quot; Display Dependencies
+                                   friends         = abap_true    &quot; Display Friend Relationship
+                                   show_exceptions = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_EXCEP&apos;) ) ).
+
+    lo_xmi-&gt;get_diagram( IMPORTING e_kind = lv_kind CHANGING c_data = lr_ref_data ).
+
+    cl_gui_frontend_services=&gt;file_save_dialog(
+      EXPORTING
+        default_extension         = |XMI|
+        default_file_name         = |export.xmi|
+        file_filter               = |(*.xmi)\|*.xmi|
+      CHANGING
+        filename                  = lv_file
+        path                      = lv_path
+        fullpath                  = lv_fullpath
+        user_action               = lv_user_action
+    EXCEPTIONS
+      cntl_error                = 0
+      error_no_gui              = 0
+      not_supported_by_gui      = 0
+      invalid_default_file_name = 0
+      OTHERS                    = 0 ).
+
+    IF lv_user_action = cl_gui_frontend_services=&gt;action_cancel.
+      RETURN.
+    ENDIF.
+
+    lr_ref_xstr ?= lr_ref_data.
+    ASSIGN lr_ref_xstr-&gt;* TO &lt;lv_data&gt;.
+
+    IF &lt;lv_data&gt; IS ASSIGNED.
+      cl_uml_utilities=&gt;save_xml_local(
+        EXPORTING
+          xml      = &lt;lv_data&gt;
+          filename = lv_fullpath ).
+    ENDIF.
+  ENDMETHOD.
+
+ENDCLASS.
+
+&quot;! export - app
+CLASS lcl_app DEFINITION.
+  PUBLIC SECTION.
+    &quot;! execute app
+    &quot;! @parameter iv_progname | program name
+    METHODS execute IMPORTING iv_progname TYPE progname.
+
+  PRIVATE SECTION.
+    &quot;! program name
+    DATA mv_progname TYPE progname.
+    &quot;! selection screen parameter
+    DATA mo_parameter TYPE REF TO lif_parameter.
+    &quot;! affected packages
+    DATA mt_so_packages TYPE cl_uml_class_scanner=&gt;uml_range_packages.
+    &quot;! objects
+    DATA mt_so_objects TYPE cl_uml_class_scanner=&gt;uml_range_types.
+    &quot;! UML class scanner
+    DATA mo_uml_class_scanner TYPE REF TO cl_uml_class_scanner.
+
+    &quot;! get selection screen parameter
+    METHODS get_selection_screen_parameter.
+    &quot;! prepare parameter
+    METHODS prepare_parameter.
+    &quot;! clear uml cache
+    METHODS clear_uml_cache.
+    &quot;! prepare UML class canner
+    METHODS prepare_uml_class_scanner.
+    &quot;! export
+    METHODS export.
+
+ENDCLASS.
+
+CLASS lcl_app IMPLEMENTATION.
+
+  METHOD execute.
+    mv_progname = iv_progname.
+    get_selection_screen_parameter( ).
+    prepare_parameter( ).
+    clear_uml_cache( ).
+    prepare_uml_class_scanner( ).
+    export( ).
+  ENDMETHOD.
+
+  METHOD get_selection_screen_parameter.
+    mo_parameter = NEW lcl_parameter( iv_progname = mv_progname ).
+  ENDMETHOD.
+
+  METHOD prepare_parameter.
+    &quot; packages
+    DATA(lt_so_packages) = mo_parameter-&gt;get_parameter_so_tab( &apos;SO_DEVC&apos; ).
+    DATA(lt_so_objects) = mo_parameter-&gt;get_parameter_so_tab( &apos;SO_ROOT&apos; ).
+
+    IF lt_so_packages IS NOT INITIAL.
+      mt_so_packages = lt_so_packages.
+    ELSEIF lt_so_objects IS NOT INITIAL.
+      SELECT DISTINCT devclass
+      FROM tadir
+      WHERE obj_name IN @lt_so_objects
+      INTO TABLE @DATA(lt_packages).
+
+      IF lt_packages IS INITIAL.
+        RETURN.
+      ENDIF.
+
+      mt_so_packages = VALUE #( FOR ls_wa IN lt_packages ( sign = &apos;I&apos; option = &apos;EQ&apos; low = ls_wa-devclass ) ).
+    ENDIF.
+
+    &quot; others
+    mt_so_objects = mo_parameter-&gt;get_parameter_so_tab( &apos;SO_ROOT&apos; ).
+  ENDMETHOD.
+
+  METHOD clear_uml_cache.
+    cl_uml_cache=&gt;get_singleton( )-&gt;clear_type_cache( ).
+  ENDMETHOD.
+
+  METHOD prepare_uml_class_scanner.
+
+    mo_uml_class_scanner = NEW cl_uml_class_scanner( ).
+
+    mo_uml_class_scanner-&gt;set_scanner_configuration( scan_local_types = abap_false
+                                                     scan_programs = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_PROG&apos;) )
+                                                     scan_function_groups = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_FUGR&apos;) )
+                                                     add_structures = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_STRUCT&apos;) )
+                                                     scan_used_types = CONV abap_bool( mo_parameter-&gt;get_parameter( &apos;X_USES&apos; ) ) ).
+
+    IF mt_so_packages IS INITIAL
+    AND mt_so_objects IS INITIAL.
+      RETURN.
+    ENDIF.
+
+    mo_uml_class_scanner-&gt;execute( scan_packages = mt_so_packages
+                                   scan_types = mt_so_objects ).
+
+  ENDMETHOD.
+
+  METHOD export.
+    DATA(lo_exporter) = CAST lif_exporter( NEW lcl_xmi_exporter( io_parameter = mo_parameter ) ).
+    lo_exporter-&gt;export( io_uml_class_scanner = mo_uml_class_scanner ).
+  ENDMETHOD.
+
+ENDCLASS.
+
+
+&quot; ----------------------------------------------------------------------------------------------------------------------------------- *
+&quot; program events
+
+INITIALIZATION.
+  button1 = text-007.
+  button2 = text-008.
+  button3 = text-009.
+
+START-OF-SELECTION.
+  NEW lcl_app( )-&gt;execute( iv_progname = sy-repid ).</source>
+ </PROG>
+</nugget>
